@@ -1,0 +1,22 @@
+{
+  "name": "firefly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "firefly",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-flowchart": "^1.4.3"
+  },
+  "dependencies": {
+    "element-ui": "^2.14.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-reco": "^1.6.1"
+  }
+}
