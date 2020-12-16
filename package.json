@@ -1,22 +1,32 @@
 {
-  "name": "firefly",
+  "name": "uniblog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "preinstall": "node ./scripts/checkYarn.js"
   },
-  "author": "firefly",
+  "author": "haotengfei",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.7.1",
-    "vuepress": "^1.7.1",
-    "vuepress-plugin-flowchart": "^1.4.3"
+    "vuepress": "^1.7.1"
   },
   "dependencies": {
-    "element-ui": "^2.14.1",
+    "@vue/composition-api": "^1.0.0-beta.20",
+    "@vuepress-reco/core": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
+    "@vuepress/plugin-blog": "1.9.2",
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "docsearch.js": "2.6.3",
+    "md5": "2.2.1",
+    "vue-click-outside": "1.1.0",
     "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-theme-reco": "^1.6.1"
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-smooth-scroll": "^0.0.9"
   }
 }

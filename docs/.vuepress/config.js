@@ -8,14 +8,12 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
   ],
   base: '/',
-  theme: 'reco',
   themeConfig,
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
   plugins: [
     ["flowchart"],
-    ["element-ui"],
     ['vuepress-plugin-code-copy', true],
     [
       "@vuepress/medium-zoom",

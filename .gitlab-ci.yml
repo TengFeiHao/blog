@@ -1,0 +1,15 @@
+image: yarnpkg/node-yarn
+
+pages:
+  cache:
+    paths:
+    - node_modules/ # 缓存 node_modules，加速编译
+
+  script:
+  - yarn install
+  - yarn run build
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
