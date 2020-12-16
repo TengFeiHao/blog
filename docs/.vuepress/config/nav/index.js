@@ -4,7 +4,7 @@ module.exports = [
   { text: 'Contact', 
     icon: 'reco-message',
     items: [
-      { text: 'GitLab', link: 'https://gitlab.jiankangyouyi.com/h5-dev/jianyue-project/jkyy-wechat-surface-2.0', icon: 'reco-GitLab' }
+      { text: 'GitHub', link: 'https://github.com/TengFeiHao', icon: 'reco-GitHub' }
     ]
   }
 ]
