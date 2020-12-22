@@ -14,7 +14,9 @@ module.exports = {
   },
   plugins: [
     ["flowchart"],
-    ['vuepress-plugin-code-copy', true],
+    ['copy-code',{
+      copyMessage: '复制成功！',
+    }],
     [
       "@vuepress/medium-zoom",
       {
