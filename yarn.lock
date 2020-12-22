@@ -8358,11 +8358,6 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-code-copy@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.0.6.tgz#6431dab764b48b5b203e4936d98b1943651ce4ad"
-  integrity sha512-FiqwMtlb4rEsOI56O6sSkekcd3SlESxbkR2IaTIQxsMOMoalKfW5R9WlR1Pjm10v6jmU661Ex8MR11k9IzrNUg==
-
 vuepress-plugin-container@^2.0.2:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
@@ -8370,6 +8365,11 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-copy-code@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code/-/vuepress-plugin-copy-code-0.0.1.tgz#569849f00de8178d5875adc1c11591c82630e6fa"
+  integrity sha512-l47WG+kQK6qujLDkXuftegDOWfuBbgw4oybtdI2G1sbveE3vgbjZWLCHOlCUki9z8IAzcGt6I36ESU/f5dinrw==
 
 vuepress-plugin-disqus@^0.2.0:
   version "0.2.0"
